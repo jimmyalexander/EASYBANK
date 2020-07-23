@@ -1,0 +1,51 @@
+/*----------------------*\
+        $FOOTER
+\*----------------------*/
+.footer{
+    color: white;
+    background-color: #111133;
+    margin: 50px 0 0 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer_container{
+    display: flex;
+    width: 60%;
+    justify-content: space-around;
+    align-items: center;
+}
+.nets-icons{
+    padding: 10px;
+   
+}
+.nets-icons img{
+    padding: 5px;
+}
+.nets-icons img:hover{
+  width: 30px ;
+  height: 30px ;
+}
+.footer-nets{
+padding: 20px;
+text-align: center;
+}
+.footer_container a {
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+}
+.support{
+    display: grid;
+}
+.support a:hover{
+    color: $color-secundario;
+}
+.footer_reference {
+    width: 40%;
+    text-align: center;
+    margin: auto 0 auto 0;
+}
+.footer_reference p{
+    margin: 0 30px 0 0;
+    padding:20px 0 0 0;
+}

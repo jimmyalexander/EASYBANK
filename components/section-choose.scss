@@ -1,0 +1,23 @@
+/*--------------------*\
+     $SECTION-CHOOSE
+\*--------------------*/
+.container-choose_easybank p{
+    color: $color-light;
+}
+.container-choose{
+   margin: 50px 0 0 50px;
+   padding: 20px;
+}
+.container-choose_reasons{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.container-choose_reasons figure{
+    margin: 0;
+}
+.container-choose_reasons p{
+    margin: 0;
+    padding: 0;
+    color: $color-light;
+}
