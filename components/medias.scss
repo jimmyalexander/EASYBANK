@@ -1,0 +1,115 @@
+/*--------------------------*\
+        $MEDIAQUERIES
+\*--------------------------*/
+@media screen and(max-width: 768px){
+    body{
+        margin: 0;
+        padding: 0;
+    }
+    .header{
+        text-align: center;
+    }
+    .container-nav {
+        flex-wrap: wrap;
+    }
+    .icon-menu{
+       display: block;
+    }
+
+    .container-nav  .nav-icon {
+        display: none; 
+        background-color: white;
+        width: 90%;
+        height: 200px;
+        margin-left: 20px;
+        position: absolute;
+        top: 50px;
+        z-index: 1;
+        text-align: center;
+        line-height: 3;
+        border-radius: 2%;
+        animation-name: aparicion;
+        animation-duration: .5s;
+        
+        
+    } 
+    .container-nav  .nav-icon.is-active{
+        display: block;
+    }
+    .container-nav nav  a {
+        color: black;
+        
+    }
+   
+    .button-nav {
+        display: none;
+    }
+    .container-principal {
+       flex-wrap: wrap;
+       justify-content: center;
+    }
+    .container-principal_contenido{
+       position: relative;
+       top: 200px;
+       margin: 0;
+    }
+    .container-principal__img  {
+        position: relative;
+        bottom: 295px;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .container-choose{
+        text-align: center;
+        margin-left: 0;
+        
+    }
+    .container-choose_reasons {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .container-articles{
+        flex-wrap: wrap;
+        margin: 0;
+    }
+    .container-articles__lates {
+        flex-wrap: wrap;
+    }
+    .footer{
+        flex-direction: column;
+        margin: 0;
+        align-items: center;
+    } 
+    .footer_container {
+        flex-direction: column;
+    }
+    .footer_support{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .footer_reference {
+        width: 50%;
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        p{
+           margin: 0;
+       }
+       a{
+          margin: 0;
+      }
+    }
+    @keyframes aparicion {
+        0%{
+            opacity: 0;
+        }
+        100%{
+            opacity: 1;
+        }
+        
+    }
+    
+}

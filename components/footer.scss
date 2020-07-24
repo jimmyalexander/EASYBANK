@@ -16,14 +16,14 @@
 }
 .nets-icons{
     padding: 10px;
+    img{
+        padding: 5px;
+    }
+    img:hover{
+      width: 30px ;
+      height: 30px ;
+    }
    
-}
-.nets-icons img{
-    padding: 5px;
-}
-.nets-icons img:hover{
-  width: 30px ;
-  height: 30px ;
 }
 .footer-nets{
 padding: 20px;
@@ -34,18 +34,15 @@ text-align: center;
     text-decoration: none;
     padding: 5px;
 }
-.support{
-    display: grid;
-}
-.support a:hover{
+.footer_support a:hover{
     color: $color-secundario;
 }
 .footer_reference {
     width: 40%;
     text-align: center;
     margin: auto 0 auto 0;
-}
-.footer_reference p{
-    margin: 0 30px 0 0;
-    padding:20px 0 0 0;
+    p{
+       margin: 0 30px 0 0;
+       padding:20px 0 0 0;
+   }
 }

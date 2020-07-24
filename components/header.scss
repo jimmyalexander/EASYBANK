@@ -19,22 +19,23 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-.container-nav nav{
-    display: flex;
-    
-} 
-.container-nav li{
-    list-style: none;
-}  
-.container-nav nav  a{
- @include anclas;
- padding: 10px 30px 10px 30px;
- color: $color-light;
-}
-.container-nav nav  a:hover{
-    border-bottom: 2px solid $color-secundario;
-    color: #222;
+    nav{
+        display: flex;
+        
+    } 
+    li{
+        list-style: none;
+    }  
+    nav  a{
+     @include anclas;
+     padding: 10px 30px 10px 30px;
+     color: $color-light;
+    }
+    nav  a:hover{
+        border-bottom: 2px solid $color-secundario;
+        color: #222;
+    }
+
 }
 /////////////////////////principal/////////
 .container-principal{
@@ -45,26 +46,30 @@ body {
 .container-principal_contenido{
     padding: 20px;
     margin: 50px 0px 0px 50px;
-}
-.container-principal_contenido h1, p{
-    padding: 10px;
-}
-.container-principal_contenido p{
-    color: $color-light;
+    h1, p{
+        padding: 10px;
+    }
+    p{
+       color: $color-light;
+    }
 }
 .container-principal__img{
    background-image: url("../assets/bg-intro-desktop.svg");
     width: 100%;
     margin: 0;
     text-align: center;
+    img{
+     width: 50%;
+     height: 100%;
+     position: relative;
+     left: 10%;
+     top: 2%;
+   }
     
-  
 }
-.container-principal__img img{
-  width: 50%;
-  height: 100%;
-  position: relative;
-  left: 10%;
-  top: 2%;
+.button-burguer{
+    margin: 10px 30px 10px 10px;
+    display: none;
 }
+
 

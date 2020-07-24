@@ -12,12 +12,12 @@
     padding: 20px;
     display: flex;
     justify-content: space-between;
-}
-.container-choose_reasons figure{
-    margin: 0;
-}
-.container-choose_reasons p{
-    margin: 0;
-    padding: 0;
-    color: $color-light;
+    figure{
+        margin: 0;
+    }
+    p{
+       margin: 0;
+       padding: 0;
+       color: $color-light;
+   }
 }
