@@ -1,7 +1,7 @@
 /*--------------------------*\
         $MEDIAQUERIES
 \*--------------------------*/
-@media screen and(max-width: 768px){
+@media screen and(max-width: 450px){
     body{
         margin: 0;
         padding: 0;
@@ -112,4 +112,9 @@
         
     }
     
+}
+@media screen and (min-width: 769px) and (max-width:1023px){
+    body{
+        background-color: cyan;
+    }
 }
